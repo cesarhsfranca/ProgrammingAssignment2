@@ -10,14 +10,6 @@
 ## “In computing, a cache /ˈkæʃ/ kash,[1] is a hardware or software component that stores data so future requests for that data can be served faster; the data stored in a cache might be the result of an earlier computation, or the duplicate of data stored elsewhere. A cache hit occurs when the requested data can be found in a cache, while a cache miss occurs when it cannot. Cache hits are served by reading data from the cache, which is faster than recomputing a result or reading from a slower data store; thus, the more requests can be served from the cache, the faster the system performs.
 ## To be cost-effective and to enable efficient use of data, caches must be relatively small. Nevertheless, caches have proven themselves in many areas of computing because access patterns in typical computer applications exhibit the locality of reference. Moreover, access patterns exhibit temporal locality if data is requested again that has been recently requested already, while spatial locality refers to requests for data physically stored close to data that has been already requested.”
 
-
-
-
-
-
-
-
-
 ## Getting back to the purpose of the assignment the below functions are used to cache an inverted matrix as a way of illustrating how this might be done with a special matrix object that stores its inverse as an in-memory object instead of recalculate it every time its value is needed saving computation time.
 
 ## 1.	makeCacheMatrix(): creates a special “matrix” object that can cache its inverse to be used for the next function cacheSolve();
