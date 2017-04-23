@@ -43,9 +43,9 @@
 ## inverse has been already calculated and not changed the cacheSolve() retrieves the inverse of the matrix from the cache. 
 ## Here is showed the codes for both functions makeCacheMatrix() and cacheSolve():
 
-## Important: Below the code is explained in two parts, i.e, first in more detail which makes the visualization of the code itself 
-## more confused.
-## Second the code is presented with short descriptions which, as oposed to the fist part, helps one to understands it more easilly.
+## Important: Below the same code is explained in two times, i.e, first in more detail which makes the visualization of the code itself 
+## more confused. Second the code is presented with short descriptions which, as oposed to the fist part, helps one to understands
+## it more easilly.
 
 
 ## This function makeCacheMatrix() creates a special "matrix" object
